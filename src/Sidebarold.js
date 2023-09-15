@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Sidebar = () => {
 
-
+return (
     <div>
     <div className='w-52 h-screen flex-col bg-[#C9252C] text-[#FFBC00] pt-28 pl-6 mt-14 absolute'>
      <nav> 
@@ -16,7 +16,7 @@ const Sidebar = () => {
 </div>
 
     </div>
-  )
+  );
 }
 
 export default Sidebar
