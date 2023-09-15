@@ -1,12 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
 import '../src'
+import Sidebar from './Sidebarold';
 
 function App() {
   return (
-    <div className="test">
-      <h1 style={{display:"flex"}}>Test Page</h1>
-    </div>
+   <Sidebar/>
   );
 }
 
